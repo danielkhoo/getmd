@@ -12,12 +12,12 @@ const argv = yargs(process.argv.slice(2))
   })
   .option('k', {
     alias: 'key',
-    describe: 'API Bearer token',
+    describe: 'API key',
     type: 'string'
   })
-  .usage('Usage: $0 <url> [-k api_token]')
+  .usage('Usage: $0 <url> [-k api_key]')
   .example('$0 example.com', 'Download markdown without authentication')
-  .example('$0 example.com -k mytoken', 'Download markdown with Bearer token')
+  .example('$0 example.com -k mykey', 'Download markdown with API key')
   .help('h')
   .alias('h', 'help')
   .argv;
