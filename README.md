@@ -2,8 +2,8 @@
 
 [![](https://img.shields.io/npm/v/getmd.svg?style=flat)](https://github.com/danielkhoo/getmd)
 
-A simple CLI utility wrapper JINA AI's [reader url-to-markdown api](https://jina.ai/reader).
-Option `-k` arg to add an api key for a higher rate limit.
+A simple CLI utility wrapper aroundJINA AI's [reader url-to-markdown api](https://jina.ai/reader).
+Optional `-k` arg to add an api key for a higher rate limits
 
 ## Usage
 
