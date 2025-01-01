@@ -1,0 +1,31 @@
+{
+  "name": "getmd",
+  "version": "1.0.0",
+  "description": "CLI wrapper around JINA AI's Reader api to get markdown from a URL",
+  "author": "Daniel Khoo",
+  "license": "MIT",
+  "homepage": "https://github.com/danielkhoo/getmd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkhoo/getmd.git"
+  },
+  "bin": {
+    "getmd": "cli.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "keywords": [
+    "markdown",
+    "jina ai",
+    "ai",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/danielkhoo/getmd/issues"
+  },
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
